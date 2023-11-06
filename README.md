@@ -7,11 +7,11 @@ Este é um projeto Verilog de exemplo que demonstra a simulação de um circuito
 Insipirado em um trabalho da faculdade a ideia do circuito é retornar o resto de divisão por 7, sendo a entrada 4 bits e saída 3. 
 Usando a tabela da verdade não é necessário fazer um divisor completo, apenas observar para cada um dos bits de saída a função lógica que pode ser inferida pelo mapa de karnaugh. 
 
-f1(a, b, c, d) = bc' + a'bd' + ab'cd
+- f1(a, b, c, d) = bc' + a'bd' + ab'cd
 
-f2(a, b, c, d) = a'b'c + a'cd' + ac'd + b'cd'
+- f2(a, b, c, d) = a'b'c + a'cd' + ac'd + b'cd'
 
-f3(a, b, c, d) = a'b'd + a'c'd + ab'd' + ac'd' + abcd
+- f3(a, b, c, d) = a'b'd + a'c'd + ab'd' + ac'd' + abcd
 
 O projeto é composto por vários módulos interconectados:
 
